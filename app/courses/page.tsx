@@ -1,5 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 type Course = {
     course_id: number,
@@ -36,7 +37,9 @@ export default function CoursesPage() {
             <ul>
                 {courses.map((c) => (
                     <li key={c.course_id}>
+                        <Link href={`/courses/${c.code}`}>
                         {c.code}: {c.title}
+                        </Link>
                     </li>
                 ))}
             </ul>
