@@ -31,7 +31,7 @@ export default function CoursesPage() {
     }, []); // run once on mount (empty dependency array?)
 
     return (
-        <div className="flex, justify-center items-center">
+        <div className="flex justify-center items-center">
             <h1>Courses</h1>
             <ul>
                 {courses.map((c) => (
