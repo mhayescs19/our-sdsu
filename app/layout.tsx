@@ -22,6 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  //updated for live site
   title: "our.SDSU",
   description: "my.SDSU for all",
 };
