@@ -93,7 +93,7 @@ export default function Onboarding() {
     if (!response.ok) {
       setServerError("Internal server error occurred. Retry.");
     } else if (response.ok) {
-      router.push("/");
+      router.push("/classes");
     }
   };
   return (
