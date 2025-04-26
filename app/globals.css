@@ -125,15 +125,15 @@
 @layer utilities;
 
 /* fonts */
-.factoExtraBold-title {
-  font-family: "facto", sans-serif;
+.fagunExtraBold-title {
+  font-family: "fagun", sans-serif;
   font-weight: 800;
   font-size: 22px;
   font-style: normal;
 }
 
-.factoExtraBold-heading {
-  font-family: "facto", sans-serif;
+.fagunExtrBold-heading {
+  font-family: "fagun", sans-serif;
   font-weight: 800;
   font-size: 24px;
   font-style: normal;
